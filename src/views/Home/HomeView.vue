@@ -23,7 +23,7 @@ onMounted(async () => {
             AoGiuNhiet.value = response_aoGiuNhiet.data;
         }
     } catch (error) {
-        console.error('Lỗi khi gọi API:', error);
+        console.error('error:', error);
     }
 });
 </script>
